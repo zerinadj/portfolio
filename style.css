@@ -1,0 +1,467 @@
+*{
+  color: whitesmoke;
+}
+a{
+  color: white;
+  text-decoration: none !important;
+
+}
+a:hover{
+  color: #4c298c;
+}
+nav{ 
+  background-color: #070012;
+  border-bottom: 1px solid gray;
+  color: white;
+  height: 40px;
+}
+@media screen and (max-width: 500px) { 
+  .navbar a {
+    max-width: 100%;
+    padding: 0px 5px 0px 5px; 
+    float: none; 
+    text-align: center;
+    display: block;
+  }
+}
+.active {
+  color: plum !important;
+} 
+body{
+  background-color: #070012;
+}
+
+.centriraj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.centar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.naslov {
+  text-align: center;
+  margin-top: 100px;
+}
+#centriraj-p {
+  margin: auto;
+  text-align: center;
+}
+form {
+  margin-top: 50px;
+}
+section {
+  background-size: cover;
+  display: table;
+}
+div {
+  display: block;
+}
+
+
+.pocetna{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(slike/pozadina.jpg);
+ width: 100%;
+ height: calc(100% - 40px);
+ font-family: Century Gothic;
+}
+.ostale{
+  background-color: #070012;
+  font-family: Century Gothic;
+  color: grey;
+  height: calc(100% - 40px);
+}
+#kontakt{
+  width: 80%;
+  margin-bottom: 50px;
+}
+.ikona {
+  padding: 10px;
+}
+#page {
+  margin-top: 50px;
+}
+
+
+/*about*/
+
+.naslov{
+  padding-top: 40px;
+  text-align: center;
+  color: #4c298c;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+.krug{
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#aboutme{
+  font-family: Century Gothic;
+  background-color: #070012;
+  color:white;
+}
+.about_main{
+  margin-right: auto;
+  margin-left: auto;
+  margin: 20px;
+  font-size: 20px;
+  padding: 20px;
+  width: 46vw;
+  float: left;
+}
+#opis h1{
+ text-align: center;
+}
+#opis p{
+  font-size: 17px;
+  text-align: left;
+}
+#opis ul li{
+  font-size: 17px;
+  list-style-image: url(slike/aboutme/ikona.ico);
+}
+#skills h1{
+  text-align: center;
+}
+#opis span{
+  font-size: smaller;
+}
+
+.skills{
+  margin-top: 30px;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+}
+#skills1{
+  margin-left: 90px;
+  margin-right: 20px;
+}
+#skills2{
+  margin-left: 90px;
+}
+
+
+/*projects*/
+
+#projekti{
+  clear: both;
+  font-family: Century Gothic;
+}
+.ime_pr{
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+  color: silver;
+  font-family: Courier New;
+
+}
+.projects{
+  font-family: Courier New;
+  padding: 20px; 
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify-all;
+}
+.projects img{
+  transition: 1s;
+}
+.projects img:hover{
+  filter: white(10%);
+  transform: scale(1.1);
+}
+#prvi_pr div{
+  display: flex;
+}
+#prvi_pr div img{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40vh;
+  width: 30vw;
+}
+#posebna{
+  display: block;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+  width: 80vh;
+}
+#prvi_pr,#drugi_pr{
+  border-top: 2px solid white;
+}
+#drugi_pr h2{
+  margin-top: 60px;
+}
+#drugi_pr img{
+  display: block;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60vh;
+  width: 30vw;
+}
+
+
+/*footer*/
+
+#futer {
+  clear: both;
+  margin-bottom: 0;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-top: 2px solid #4c298c;
+}
+
+.highlight{
+  color: #4c298c;
+}
+
+/*galerija source: https://www.w3schools.com/css/css_image_gallery.asp */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+}
+
+/*galerija*/
+
+#galerija1{
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  float: left;
+}
+#galerija2{
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+}
+#galerija2 img{
+  width: 280px;
+  transition: 1s;
+  padding: 20px;
+}
+#galerija2 img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+#galerije h1{
+  margin-top: 45px;
+  text-align: center;
+  padding: 10px;
+}
+#galerije p{
+  text-align: center;
+  font-size: 20px;
+}
+#galerije h3{
+  text-align: center;
+}
+
+#gal_naslov{
+  padding: 10px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*blog*/
+
+#blog_main{
+  padding: 20px;
+}
+#blog_pocetak h1{
+  text-align: center;
+  text-decoration: underline;
+}
+#blog_pocetak p{
+  font-size: 20px;
+  padding: 20px;
+  margin-bottom: 0;
+}
+#blog_pocetak ul li{
+  margin-left: 20px;
+  font-size: 20px;
+}
+article h1{
+  padding-bottom: 20px;
+}
+article h2{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+article p{
+  font-size: 15px;
+  color: black;
+  padding-left: 20px;
+}
+article h1,h2,em{
+  color: black;
+  padding-left: 20px;
+}
+article ul li{
+  color: black;
+  padding-left: 10px;
+}
+article table th,td{
+  color: black;
+}
+
+.post{
+  margin: 20px;
+  padding: 20px;
+  width: 45vw;
+  float: left;
+  background-color: whitesmoke;
+  border: 4px dotted gray;
+  border-radius: 20px;
+}
+
+#prvi p{
+  margin: 20px;
+  text-align: justify-all;
+  
+}
+#prvi h1{
+  text-align: center;
+}
+#prvi img{
+  float: left;
+  width: 300px; 
+  margin-right: 10px;
+  max-width: 100%;
+}
+#drugi h1{
+  text-align: center;
+}
+#drugi img{
+ margin-right: auto;
+ margin-left: auto;
+ max-width: 100%;
+ height: auto;
+}
+#drugi p{
+  margin: 20px; 
+}
+#drugi p img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+  height: 350px;
+  max-width: 100%;
+  padding: 20px;
+}
+/* Responsive iframe https://stackoverflow.com/questions/17838607/making-an-iframe-responsive*/
+.wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#drugi table{
+  width: 100%;
+
+}
+#drugi table th,td{
+  text-align: center;
+}
+#drugi th{
+  border: 2px solid purple;
+}
+#drugi tr{
+  border: 1px solid black;
+}
+/*responsive text*/
+
+@media (max-width: 360px) {  
+  h1 {font-size:1rem;}
+  p{font-size: 10px} 
+}
+
+@media (max-width: 544px) {  
+  h1 {font-size:1.5rem;} 
+  p{font-size: 10px}
+}
+ @media (max-width: 768px) {  
+  h1 {font-size:2rem;}
+  p{font-size: 15px} 
+}
+ 
+@media (max-width: 992px) { 
+  h1 {font-size:2rem;} 
+  p{font-size: 20px}
+}
+@media (min-width: 1200px) {  
+  h1 {font-size:2.5rem;} 
+  p{font-size: 20px}
+}
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;} 
+  p{font-size: 20px}
+
+}
+
+@media (max-width: 1000px) {  
+  .post {
+    width: 90vw;
+  }
+  .about_main{
+    width: 90vw;
+  }
+  #prvi_pr div{
+    flex-direction: column;
+  }
+  #prvi_pr div img{
+    width: 70vw;
+  }
+  #posebna{
+    width: 70vw;
+  }
+}
